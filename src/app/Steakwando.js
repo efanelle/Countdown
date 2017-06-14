@@ -98,8 +98,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    // backgroundColor: '#1FBFBC',
-    backgroundColor: 'peru'
+    backgroundColor: '#1FBFBC',
   },
   input: {
     flex: .5, 
