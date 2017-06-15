@@ -80,10 +80,10 @@ export default class Steakwando extends Component {
         
         <View style={styles.buttons}>
           <TouchableHighlight style={styles.btn} onPress={this.startTimer}>
-            <Text>{this.state.label}</Text>
+            <Text style={styles.btnText}>{this.state.label}</Text>
           </TouchableHighlight>
           <TouchableHighlight style={styles.btn} onPress={this.resetTimer}>
-            <Text>Reset</Text>
+            <Text style={styles.btnText}>Reset</Text>
           </TouchableHighlight>
         </View>
 
@@ -118,6 +118,13 @@ const styles = StyleSheet.create({
     borderWidth:1,
     borderRadius: 5,
     padding: 10,
+    borderColor:'#16827e',
+    backgroundColor: '#7cd6d3',
+    opacity:.8
+  },
+  btnText: {
+    color: '#0a4c4a',
+    fontWeight: 'bold',
   }
 });
 
