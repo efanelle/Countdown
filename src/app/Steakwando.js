@@ -5,8 +5,6 @@ import {
   Text,
   View,
   TextInput,
-  Picker,
-  PickerItem,
   TouchableHighlight
 } from 'react-native';
 import TimePicker from './TimePicker.js';
